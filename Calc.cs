@@ -74,13 +74,13 @@ class Program {
                     System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) + Convert.ToDouble(arg_2.Replace('.', ',')));
                     break;
                 case "-":
-                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) + Convert.ToDouble(arg_2.Replace('.', ',')));
+                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) - Convert.ToDouble(arg_2.Replace('.', ',')));
                     break;
                 case "*":
-                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) + Convert.ToDouble(arg_2.Replace('.', ',')));
+                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) * Convert.ToDouble(arg_2.Replace('.', ',')));
                     break;
                 case "/":
-                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) + Convert.ToDouble(arg_2.Replace('.', ',')));
+                    System.Console.WriteLine("результат: {0} ", Convert.ToDouble(arg_1.Replace('.', ',')) / Convert.ToDouble(arg_2.Replace('.', ',')));
                     break;
             }
         }
